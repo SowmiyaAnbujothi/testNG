@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-19T11:27:58 IST" name="Suite" finished-at="2023-05-19T11:27:58 IST" duration-ms="27">
+    <groups>
+      <group name="Smoke">
+        <method signature="C1.testCase1()[pri:0, instance:TestNg.C1@1b11171f]" name="testCase1" class="TestNg.C1"/>
+        <method signature="C2.Class2TC1()[pri:0, instance:TestNg.C2@7db12bb6]" name="Class2TC1" class="TestNg.C2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-05-19T11:27:58 IST" name="Test" finished-at="2023-05-19T11:27:58 IST" duration-ms="27">
+      <class name="TestNg.C1">
+        <test-method signature="testCase1()[pri:0, instance:TestNg.C1@1b11171f]" started-at="2023-05-19T11:27:58 IST" name="testCase1" finished-at="2023-05-19T11:27:58 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+      </class> <!-- TestNg.C1 -->
+      <class name="TestNg.C2">
+        <test-method signature="Class2TC1()[pri:0, instance:TestNg.C2@7db12bb6]" started-at="2023-05-19T11:27:58 IST" name="Class2TC1" finished-at="2023-05-19T11:27:58 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Class2TC1 -->
+      </class> <!-- TestNg.C2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
